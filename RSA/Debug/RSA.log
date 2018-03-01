@@ -1,0 +1,23 @@
+﻿生成启动时间为 2016/6/18 14:39:31。
+     1>项目“F:\忙忙碌碌喋喋不休\大二下\信息安全基础综合设计实验\第六次课\RSA\RSA.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\Debug\\" /Fd".\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt RSAACT.cpp
+         RSAACT.cpp
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+         c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(33): note: 参见“MBCS_Support_Deprecated_In_MFC”的声明
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>f:\忙忙碌碌喋喋不休\大二下\信息安全基础综合设计实验\第六次课\rsa\rsaact.cpp(339): warning C4101: “p”: 未引用的局部变量
+     1>f:\忙忙碌碌喋喋不休\大二下\信息安全基础综合设计实验\第六次课\rsa\rsaact.cpp(461): warning C4804: “<”: 在操作中使用类型“bool”不安全
+     1>f:\忙忙碌碌喋喋不休\大二下\信息安全基础综合设计实验\第六次课\rsa\rsaact.cpp(461): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\RSA.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:".\Debug\RSA.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\RSA.lib" /MACHINE:X86 /SAFESEH .\Debug\RSA.res
+         .\Debug\RSA.obj
+         .\Debug\RSAACT.obj
+         .\Debug\RSADlg.obj
+         .\Debug\StdAfx.obj
+         RSA.vcxproj -> F:\忙忙碌碌喋喋不休\大二下\信息安全基础综合设计实验\第六次课\RSA\.\Debug\RSA.exe
+     1>已完成生成项目“F:\忙忙碌碌喋喋不休\大二下\信息安全基础综合设计实验\第六次课\RSA\RSA.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:05.31

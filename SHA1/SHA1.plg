@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SHA1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\volvo\LOCALS~1\Temp\RSP3A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/SHA1.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\第二章实验代码\学生教学使用\信息安全基础综合设计实验讲义\讲义-word(2011版)\第六次课\SHA1\SHA1Dlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\volvo\LOCALS~1\Temp\RSP3A.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/SHA1.pdb" /debug /machine:I386 /out:"Debug/SHA1.exe" /pdbtype:sept  ".\Debug\SHA1.obj" ".\Debug\SHA1ACT.obj" ".\Debug\SHA1Dlg.obj" ".\Debug\StdAfx.obj" ".\Debug\SHA1.res" "
+<h3>Output Window</h3>
+Compiling...
+SHA1Dlg.cpp
+E:\第二章实验代码\学生教学使用\信息安全基础综合设计实验讲义\讲义-word(2011版)\第六次课\SHA1\SHA1Dlg.cpp(182) : error C2065: 'SHA1Context' : undeclared identifier
+E:\第二章实验代码\学生教学使用\信息安全基础综合设计实验讲义\讲义-word(2011版)\第六次课\SHA1\SHA1Dlg.cpp(182) : error C2146: syntax error : missing ';' before identifier 'sha'
+E:\第二章实验代码\学生教学使用\信息安全基础综合设计实验讲义\讲义-word(2011版)\第六次课\SHA1\SHA1Dlg.cpp(182) : error C2065: 'sha' : undeclared identifier
+E:\第二章实验代码\学生教学使用\信息安全基础综合设计实验讲义\讲义-word(2011版)\第六次课\SHA1\SHA1Dlg.cpp(188) : error C2065: 'SHA1Reset' : undeclared identifier
+E:\第二章实验代码\学生教学使用\信息安全基础综合设计实验讲义\讲义-word(2011版)\第六次课\SHA1\SHA1Dlg.cpp(195) : error C2065: 'SHA1Input' : undeclared identifier
+E:\第二章实验代码\学生教学使用\信息安全基础综合设计实验讲义\讲义-word(2011版)\第六次课\SHA1\SHA1Dlg.cpp(196) : error C2065: 'SHA1Result' : undeclared identifier
+E:\第二章实验代码\学生教学使用\信息安全基础综合设计实验讲义\讲义-word(2011版)\第六次课\SHA1\SHA1Dlg.cpp(199) : error C2228: left of '.Message_Digest' must have class/struct/union type
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+SHA1.exe - 7 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

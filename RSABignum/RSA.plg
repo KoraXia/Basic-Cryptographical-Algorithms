@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RSA - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/RSA.res" /d "_DEBUG" /d "_AFXDLL" "E:\第二章实验代码\学生教学使用\信息安全基础综合设计实验讲义\讲义-word(2012版)\实现好的\RSABignum\RSA.rc"" 
+Creating temporary file "C:\DOCUME~1\volvo\LOCALS~1\Temp\RSP490.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\第二章实验代码\学生教学使用\信息安全基础综合设计实验讲义\讲义-word(2012版)\实现好的\RSABignum\Bignum.cpp"
+"E:\第二章实验代码\学生教学使用\信息安全基础综合设计实验讲义\讲义-word(2012版)\实现好的\RSABignum\RSA.cpp"
+"E:\第二章实验代码\学生教学使用\信息安全基础综合设计实验讲义\讲义-word(2012版)\实现好的\RSABignum\RSAACT.cpp"
+"E:\第二章实验代码\学生教学使用\信息安全基础综合设计实验讲义\讲义-word(2012版)\实现好的\RSABignum\RSADlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\volvo\LOCALS~1\Temp\RSP490.tmp" 
+Creating temporary file "C:\DOCUME~1\volvo\LOCALS~1\Temp\RSP491.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/RSA.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\第二章实验代码\学生教学使用\信息安全基础综合设计实验讲义\讲义-word(2012版)\实现好的\RSABignum\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\volvo\LOCALS~1\Temp\RSP491.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/RSA.pdb" /debug /machine:I386 /out:"Debug/RSA.exe" /pdbtype:sept  ".\Debug\Bignum.obj" ".\Debug\RSA.obj" ".\Debug\RSAACT.obj" ".\Debug\RSADlg.obj" ".\Debug\StdAfx.obj" ".\Debug\RSA.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Bignum.cpp
+RSA.cpp
+RSAACT.cpp
+RSADlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+RSA.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
