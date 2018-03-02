@@ -1,2 +1,2 @@
 # Basic-Cryptographical-Algorithms
-Homeworks in class "Basic experiments of information security mathmatics".
+Homeworks in class "Information Security Mathematics Foundation".
