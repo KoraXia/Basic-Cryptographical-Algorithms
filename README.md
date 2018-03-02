@@ -1,2 +1,2 @@
 # Basic-Cryptographical-Algorithms
-Like DES, EUCINV, PRIME, RC4...
+Homeworks in class "Basic experiments of information security mathmatics".
